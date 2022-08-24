@@ -6,7 +6,15 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
-.App {
+input{
+  padding: 5px;
+}
+
+button{
+  padding: 5px;
+}
+
+/* .App {
   text-align: center;
   background-color: rgba(10, 192, 186, 0.719);
   background-image: url('./images/texture_bg.jpg');
@@ -17,10 +25,20 @@
   color:#fff;
 }
 
-input {
+.taskinput{
   margin: 10px 0px 10px 10px;
-  padding: 10px;
+  padding: 11.5px;
   border-radius: 10px 0px 0px 10px;
+}
+
+.dateinput{
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.dateinput:hover{
+ cursor:pointer;
 }
 
 .savetask{
@@ -76,3 +94,4 @@ input {
   box-shadow: 0 1px 12px rgba(0,0,0,0.7);
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+ */
